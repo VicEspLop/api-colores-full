@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        
+
+        fetch("/colores/borrar/65e9a8a147e40572ff113c1e",{
+            method : "DELETE"
+        })
+        .then(repsuesta => repsuesta.text())
+        .then(repsuesta => console.log(repsuesta))
+    </script>
+</body>
+</html>
